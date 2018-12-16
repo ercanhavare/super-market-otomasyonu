@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-image:url(../../images/background/arkaplan2.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;}
+
+.header2 {
+	width: 1024px;;
+	height: 200px;
+	background-image:url(../../images/header1.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:5px;
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:50px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:5px;}
+	
+.header2 .menu {
+	width: auto;
+	height: 50px;
+	background-color:rgba(204,204,204,0.8);
+	margin-top:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;}
+	
+.header2 .menu .left{
+	width:auto;
+	text-align:left;
+	font: italic bold 18px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;  
+	float:left; 
+	margin-top:15px;
+	margin-left:30px;
+	}
+	
+.header2 .menu .right{
+	text-align:right; 
+	font:14px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	margin-top:17px;
+	margin-right:70px; 
+	float:right;
+	}
+
+.header2 .menu .right a:link	, .header2 .menu .right a:visited{
+	font:15px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	color:rgba(248,95,73,1.00);
+	text-decoration:none;}
+	
+.header2 .menu .right a:hover , .header2 .menu .right a:active{
+	font:15px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	color:rgba(0,153,51,1);
+	text-decoration:underline;}
+	
+	
+	
+
+	
+.menu2{
+	width:auto;
+	height:45px;
+	margin-top:100px;
+	padding-left:20px;}
+
+ul#menu3 li{
+	float:left;
+	position:relative;
+	width:140px;
+	}
+	
+ul#menu3, ul#menu3 ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+ul#menu3 li ul {
+	display:none;
+	position:absolute;
+	top: 45px; 
+	left: 0;
+	}
+
+ul#menu3 li:hover ul { 
+	display:block;
+	}
+
+ul#menu3 li a {
+	height:25px;
+	color:rgba(248,95,73,1.00);
+	font:15px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color:transparent;
+	display: block;
+	margin:0;
+	padding:5px;
+	padding-top:15px;
+	padding-left:10px;
+	text-align:center;
+	text-decoration:none;}
+	
+ul#menu3 li a:hover{
+	background-color:rgba(204,204,204,0.5);
+	color:rgba(0,153,102,1);
+	}
+	
+ul#menu3 li ul li a {
+	height:25px;
+	color:rgba(248,95,73,1.00);
+	font:15px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color:rgba(204,204,204,0.9);
+	display: block;
+	margin:0;
+	padding:5px;
+	padding-top:15px;
+	padding-left:10px;
+	text-align:left;
+	text-decoration:none;}
+
+ul#menu3 li ul li a:hover{
+	color:rgba(0,153,102,1);
+	background-color:rgba(204,204,204,1.0);}
+		
+/*/////////////////////////////////////////////////Header son////////////////////////////////////////////////////////////*/
+
+.content2 {
+	width: 1024px;;
+	height: 550px;
+	background-color:rgba(204,204,204,0.8);
+	border-radius:5px;
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:5px;}
+	
+.content2 .tablo{
+	width:auto;
+	height:500px;
+	font:14px Arial, Helvetica, sans-serif;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;}
+.tablo input, textarea{
+	border-radius:5px;}
+.tablo table{
+	text-align:left;}

@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+.header {
+	width: 1024px;;
+	height: 295px;
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:50px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;}
+	
+.header .user {
+	width: 320px;
+	height: 225px;
+	background-color:rgba(204,204,204,0.8);
+	border-bottom-right-radius:5px;
+	float: right;
+	margin-top: 10px;}
+
+.header .user .userimg{
+	width:95px;
+	height:100px;
+	margin:20px 5px 5px 112px;
+	padding:auto;
+	border:1px solid red;
+	border-radius:5px;
+	text-align:center;
+	overflow:auto;}
+	
+.header .user .usertext{
+	width:240px;
+	height:70px;
+	font: 14px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	margin:25px 20px 10px 40px;
+	text-align:center;}
+
+.header .imggalery {
+	width: 700px;
+	height:	225px;
+	float: left;
+	margin-top: 10px;}
+	
+.header .menu {
+	width: auto;
+	height: 49px;
+	background-color:rgba(204,204,204,0.8);
+	margin-top:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;}
+	
+.header .menu .left{
+	width:auto;
+	text-align:left;
+	font: italic bold 18px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;  
+	float:left; 
+	margin-top:15px;
+	margin-left:30px;}
+	
+.header .menu .right{
+	text-align:right; 
+	font:14px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	margin-top:17px;
+	margin-right:70px; 
+	float:right;}
+
+.header .menu .right a:link	, .header .menu .right a:visited{
+	font:15px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	color:rgba(248,95,73,1.00);
+	text-decoration:none;}
+	
+.header .menu .right a:hover , .header .menu .right a:active{
+	font:15px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	color:rgba(0,153,51,1);
+	text-decoration:underline;}
+
+.header .user .usertext a:link, .header .user .usertext :visited{
+	font:10px Georgia, "Times New Roman", Times, serif;
+	color:rgba(248,95,73,1.00);
+	text-decoration:none;}	
+	
+.header .user .usertext a:hover , .header .user .usertext a:active{
+	font:14px Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; 
+	color:rgba(0,153,51,1);
+	text-decoration:underline;}
+	
+
+/*////////////////////////////////////////header son///////////////////////////////////////////////////////////////*/
+.iceriktut{
+	width: 1024px;;
+	height: 550px;
+	background-color:rgba(204,204,204,0.5);
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:50px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	padding-top:25px;}
+
+.iceriktutadmin{
+	width: 1024px;;
+	height: 350px;
+	background-color:rgba(204,204,204,0.5);
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:50px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	padding-top:25px;}
+	
+.content{
+	width: 1024px;;
+	height: auto;
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:50px;
+	padding-top: 10px;}
+	
+.content .contenttut{
+	width:auto;
+	height:230px;
+	padding:5px 10px 0px 25px;
+	margin:15px 5px 0px 25px;}
+	
+.content .contenttut .menu{
+	width:200px;
+	height:150px;
+	background-color:#B8CAD6;
+	border-radius:10px;
+	float:left;
+	padding:2px 2px 2px 2px;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:center;}
+
+.content .contenttut .menu img{width:100x;height:90px;}
+	
+.content .contenttut .menu a:link, .content .contenttut .menu a:visited{
+	color:rgba(248,95,73,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-decoration:none;
+	display:block;}
+	
+.content .contenttut .menu a:hover, .content .contenttut .menu a:active{
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:rgba(0,153,51,1);
+	text-decoration:underline;}
+	
+	
+	
+.content .contettut .menu .menuimg{
+	witdh:200px;
+	height:120px;
+	margin:5px 3px 2px 10px;
+	text-align:center;}
+	
+.content .contettut .menu .menutext{
+	witdh:200px;}
+	
+.submit{color:rgba(255,51,0,1);}
+/*////////////////////////////////////////Content son///////////////////////////////////////////////////////////////*/	
+.footer {
+	width: 1024px;;
+	height: 50px;
+	color:rgba(248,95,73,1.00);
+	font:12px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align:center;
+	background-color:rgba(204,204,204,0.8);
+	line-height:50px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:5px;}	
+/*////////////////////////////////////////footer son///////////////////////////////////////////////////////////////*/	
+.clear{clear:left;}

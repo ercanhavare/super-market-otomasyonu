@@ -1,0 +1,138 @@
+
+
+ body{
+	 background-image:url(../../images/background/arkaplan3.jpg);
+	 background-attachment:fixed;
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 color:rgba(210,210,210,1);}
+	 
+.baslik{
+	width:auto;
+	height:30px;
+	background-color:rgba(24,171,160,0.9);
+	color:rgba(210,210,210,1.00);
+	font:italic bold 16px  Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif ;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px 5px 5px 40px;
+	border-radius:10px;}
+	
+.input{
+	border-radius:5px;}
+	
+.submit{
+	border-radius:5px;
+	font-weight:bold;
+	color:rgba(21,152,109,1.00);}
+
+.login {
+	width: 1000px;
+	height:300px;
+	font:15px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	background-color:rgba(24,171,160,0.9);
+	border-radius:20px;}
+
+.login .user {
+	width: 450px;
+	float: left;
+	height: 300px;
+	font-weight:bold;
+	color:rgba(210,210,210,1.00);}
+	
+.login .user .usertext{
+	width: 150px;
+	margin:25px 20px 10px 80px;
+	color:rgba(229,229,229,1.00);
+	font:italic bold 17px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:rgba(14,223,219,1.00);
+	text-decoration:underline;}
+	
+
+
+.login .user .userort {
+	width: 200px;
+	margin:25px 10px 10px 160px;}
+	
+.login .user .userbuton {
+	width: 50px;
+	margin:30px 10px 10px 110px;}
+	
+/*///////////////////////////////////////loginuser son//////////////////////////////////////////////////////////////////*/
+.login .register {
+	width: 500px;
+	float: right;
+	height: 300px;
+	color:rgba(210,210,210,1.00);}
+.register .registertext{
+	width:495px;
+	height:auto;
+	float:left;
+	margin:10px 10px 5px 2px;
+	font: 16px "Times New Roman", Times, serif ;}
+.register .registerbutton{
+	width:200px;
+	height:30px;
+	text-align:center;
+	float:right;
+	margin:35px 200px 5px 5px;
+	border:1px solid green;}
+	
+.register .registerbutton a:link, .register .registerbutton a:visited{
+	height:25px;
+	color:rgba(0,153,102,1);
+	background-color:rgba(204,204,204,1);
+	padding-top:5px;
+	text-decoration:none;
+	display:block;}
+
+.register .registerbutton a:hover, .register .registerbutton a:active{
+	height:25px;
+	color:rgba(204,204,204,1);
+	font:bold 16px "Times New Roman", Times, serif ;
+	background-color:rgba(24,171,160,0.9);
+	text-decoration:none;
+	display:block;}
+/*///////////////////////////////////////////Login son//////////////////////////////////////////////////////*/
+
+.form {
+	width: 1000px;
+	height:auto;
+	color:rgba(210,210,210,1.00);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	background-color:rgba(24,171,160,0.9);
+	border-radius:20px;}
+	
+.kayit {
+	width: 1000px;
+	height:800px;
+	color:rgba(210,210,210,1);
+	font:16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	background-color:rgba(24,171,160,0.9);
+	border-radius:20px;}
+	
+.form  input, textarea{
+	border-radius:5px;}
+	
+.kayit input, textarea{
+	border-radius:5px;}
+	
+.hatalar{
+		height:50px;
+		background-color:rgba(0,153,153,1);
+		color:rgba(255,51,0,1);
+		margin:auto;
+		margin-top:50px;
+		padding:15px 0px 5px 0px;
+		text-align:center;
+		font:17px Georgia, "Times New Roman", Times, serif;
+		}
